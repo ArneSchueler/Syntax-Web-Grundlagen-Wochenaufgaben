@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample HTML Page</title>
+  </head>
+  <body>
+    <!-- Aufgabe 3 – Bereiche strukturieren -->
+    <!-- Header section with navigation -->
+    <header>
+      <nav></nav>
+    </header>
+
+    <!-- Main section with content -->
+    <!-- Aufgabe 2 – Persönliche Startseite anlegen -->
+    <main>
+      <section class="section__intro" id="#intro">
+        <h1>Hi, I am Arne</h1>
+        <p>Welcome to my sample HTML page!</p>
+      </section>
+      <section class="section__about-me" id="#about-me">
+        <h2>About Me</h2>
+
+        <!-- Aufgabe 5 - Links und Bilder -->
+        <img
+          src="https://framerusercontent.com/images/baMeNTLf1U7fHemVoeGazQID3e8.png?scale-down-to=512&width=1376&height=768"
+          alt="A picture of me standing infront of two computer screens"
+        />
+        <p>
+          I am a web developer with a passion for creating beautiful and
+          functional websites.
+        </p>
+
+        <!-- Aufgabe 1 – Drei neue Inhaltsbereiche anlegen -->
+        <!-- Aufgabe 2 – Wichtige Stellen hervorheben -->
+        <div class="container__content">
+          <div class="content__hobbies">
+            <h3>My Hobbies</h3>
+            <p>
+              I really enjoy <strong>cooking</strong> and trying out new
+              recipes. I also like working with my hands and doing small
+              <strong>craft or repair projects</strong>. Being outside in nature
+              makes me feel relaxed and happy.
+            </p>
+          </div>
+          <div class="content__likes">
+            <h3>What I like</h3>
+            <p>
+              I <em>love</em> good food and enjoy sharing meals with others. I
+              also have a dark sense of humor —
+              <mark>the darker and weirder, the better!</mark>
+            </p>
+            <div
+              class="container__images"
+              style="display: inline-flex; width: 100vw; gap: 24px"
+            >
+              <div class="container__image" style="width: 45%">
+                <a href="https://www.chefkoch.de/"
+                  ><img
+                    src="https://images.squarespace-cdn.com/content/v1/53e52074e4b0392a271246de/1558335130555-12QFNNLTBB2O2F86SGYV/2019-SFF-Facebook-Homepage-001-blanko.jpg"
+                    alt="image of food"
+                    width="100%"
+                    height="auto"
+                    style="display: block"
+                  />Delicious</a
+                >
+              </div>
+              <div class="container__image" style="width: 36%">
+                <a href="https://explosm.net/comics/rob-couple"
+                  ><img
+                    src="https://files.explosm.net/comics/Rob/couple.png"
+                    alt="cynaide and happiness comic"
+                    width="100%"
+                    height="auto"
+                    style="display: block"
+                  />Fuuuunnnnnnny</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="content__dislikes">
+            <h3>What I dislike</h3>
+            <p>
+              I don’t like <strong>pollution</strong> and seeing people harm the
+              environment. Intolerance and disrespect towards others really
+              bother me.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bonusaufgabe – Verschachtelte Listen -->
+      <section class="section__interests">
+        <h2>My interests</h2>
+        <ul>
+          <li>
+            Music
+            <ul>
+              <li>
+                General
+                <ul>
+                  <li>80s</li>
+                  <li>90s</li>
+                </ul>
+              </li>
+              <li>
+                Electronic
+                <ul>
+                  <li>DnB</li>
+                  <li>Psytrance</li>
+                  <li>House</li>
+                  <li>TechHouse</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Food
+            <ul>
+              <li>Everything</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Aufgabe 3 – Meine Lieblingsdinge (als Liste) -->
+      <section class="section__favorites">
+        <h2>My favourite things</h2>
+        <ul>
+          <li>My Daughter</li>
+          <li>My Dog</li>
+          <li>Negroni</li>
+          <li>Walking barefoot</li>
+          <li>Psytrance and DnB</li>
+        </ul>
+      </section>
+      <section class="section__links" id="#links">
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a href="https://schueler.dev"
+              >Arne Schüler UX/UI Designer Portfolio</a
+            >
+          </li>
+          <li><a href="https://www.chatgpt.com">ChatGPT</a></li>
+          <li><a href="https://www.youtube.com">YouTube</a></li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+              >never gonna give you up!!!</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- Aufgabe 4 – „Fun Facts“-Rubrik mit Stilbruch -->
+      <section class="section__funfacts">
+        <h2>Useless information about me</h2>
+        <blockquote>
+          <p>
+            <strong
+              >I once took part in an egg throwing world championship.</strong
+            ><small
+              >(We managed to throw and catch a raw egg 40 meters on the
+              day!)</small
+            >
+          </p>
+          <p>
+            <strong
+              >I paid 9 CHF for a shot of Jäger at an Offspring concert in
+              Zurich.</strong
+            >
+            <small>(It was gone in two seconds, but still worth it.)</small>
+          </p>
+          <p>
+            <strong
+              >I broke both my wrists at the same time when I was a child. </strong
+            ><small>(Apparently, I wasn’t a very good climber.) </small>
+          </p>
+        </blockquote>
+      </section>
+    </main>
+    <footer>
+      <!-- Footer section with footer information -->
+    </footer>
+  </body>
+</html>
