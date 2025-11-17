@@ -1,0 +1,134 @@
+:root {
+  --primary-color: rgb(0, 85, 255);
+  --primary-color-hover: rgba(0, 85, 255, 0.846);
+  --primary-color-active: rgb(1, 76, 227);
+
+  --seconday-color: rgb(53, 53, 53);
+  --seconday-color-hover: rgba(53, 53, 53, 0.849);
+  --seconday-color-active: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+/* Aufgabe 01 */
+
+.profile-head {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+  max-width: 1200px;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+/* Username */
+.container-username {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.verification {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+/* Aufgabe 02 */
+
+/* Stats */
+.container-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-stats div {
+  text-align: center;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Aufgabe 03 */
+
+/* Info */
+.container-info a {
+  text-decoration: none;
+}
+
+/* Aufgabe 04 */
+
+/* Buttons */
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+button {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 0;
+
+  color: white;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+}
+.primary-btn:hover {
+  background-color: var(--primary-color-hover);
+}
+.primary-btn:active {
+  background-color: var(--primary-color-active);
+}
+
+.secondary-btn {
+  background-color: var(--seconday-color);
+}
+
+.secondary-btn:hover {
+  background-color: var(--seconday-color-hover);
+}
+
+.secondary-btn:active {
+  background-color: var(--seconday-color-active);
+}
+
+/* Aufgabe 05 */
+
+/* Profile image */
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url("https://framerusercontent.com/images/baMeNTLf1U7fHemVoeGazQID3e8.png?scale-down-to=512&width=1376&height=768");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
